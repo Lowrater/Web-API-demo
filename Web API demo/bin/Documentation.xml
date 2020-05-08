@@ -495,8 +495,34 @@
         <member name="M:Web_API_demo.Controllers.PeopleController.GetNames">
             <summary>
             Returns a list of names
+            Unique specified API path.
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:Web_API_demo.Controllers.PeopleController.Get">
+            <summary>
+            Returns a list of all peoples
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Web_API_demo.Controllers.PeopleController.Get(System.Int32)">
+            <summary>
+            Returns an object of an Person by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web_API_demo.Controllers.PeopleController.Post(Web_API_demo.Models.Person)">
+            <summary>
+            Adds an person to the existing Person list
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Web_API_demo.Controllers.PeopleController.Delete(System.Int32)">
+            <summary>
+            Removes a person by id, in the person list
+            </summary>
+            <param name="id"></param>
         </member>
     </members>
 </doc>
